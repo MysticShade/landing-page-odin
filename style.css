@@ -1,5 +1,5 @@
 * {
-  border: 2px solid orange;
+  border: 2px solid brown;
   padding: 0;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
@@ -14,13 +14,15 @@
   align-items: center;
   text-align: center;
   justify-content: end;
-  padding: 10px 200px;
+  padding: 20px 200px;
+  gap: 40px
 }
 
 a.link, 
 #HeadLogo {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
+   
 }
 
 #HeadLogo {
@@ -58,11 +60,43 @@ img {
 }
 
 .signUpButton {
-  padding: 5px;
+  padding: 5px 30px;
   font-weight: bold;
   border-radius: 8px;
   background-color: #3882F6;
   color: white;
   margin-left: 8px
+}
+
+h2 {
+  color: #1F2937;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.contArt {
+  padding: 50px 200px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.imageCont {
+  gap: 20px;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+
+div .image {
+  align-items: center;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  border-width: 5px;
+  height: 180px;
+  width: 180px;
 }
 
