@@ -118,3 +118,31 @@ article > h2 {
   float: right;
 }
 
+.bottomCont {
+  color: white;
+  background-color: #3882F6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  padding: 30px 80px;
+  width: 800px;
+  gap: 50px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 150px;
+  white-space: nowrap;
+}
+
+footer {
+  padding: 40px 300px;
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+}
+
