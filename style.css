@@ -1,5 +1,4 @@
 * {
-  border: 2px solid brown;
   padding: 0;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
@@ -22,19 +21,21 @@ a.link,
 #HeadLogo {
   color: white;
   text-decoration: none;
+  white-space: nowrap;
    
 }
 
 #HeadLogo {
   display: flex;
   flex-direction: row;
-  margin-right: 900px;
+  margin-right: 760px;
   font-weight: 900;
   font-size: 25px; 
 }
 
 .headerCont {
-  padding: 10px 200px;
+  
+  padding: 90px 200px;
   background-color: #1F2937;
   display: flex;
   justify-content: center;
@@ -78,7 +79,7 @@ h2 {
 .contArt {
   padding: 50px 200px;
   align-items: center;
-  padding-top: 10px;
+  
 }
 
 .imageCont {
@@ -91,6 +92,8 @@ h2 {
 }
 
 div .image {
+  margin: 0 auto;
+  margin-bottom: 20px;
   align-items: center;
   padding: 20px;
   border: 2px solid blue;
@@ -98,5 +101,20 @@ div .image {
   border-width: 5px;
   height: 180px;
   width: 180px;
+}
+
+article > h2 {
+  font-weight: 1000;
+}
+
+.quoteCont {
+  font-size: 36px;
+  padding: 200px 350px;
+  gap: 15px;
+  background-color: #E5E7EB;
+}
+
+.author {
+  float: right;
 }
 
